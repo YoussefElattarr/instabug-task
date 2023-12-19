@@ -26,7 +26,9 @@ cd your-project
 
 ### Environment Variables
 
-Create a .env file in the root of the project based on the provided .env.example. 
+Create a .env file in the root of the project based on the provided .env.example. <br />
+Keep MYSQL_USER as root <br />
+MYSQL_PASSWORD and MYSQL_ROOT_PASSWORD should be the same password
 
 ### Run the Application
 
