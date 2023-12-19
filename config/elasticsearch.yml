@@ -1,0 +1,9 @@
+development: &default
+  url: ENV['ELASTICSEARCH_URL'] || 'http://localhost:9200',
+  user: ENV['ELASTICSEARCH_USER'],
+  password: ENV['ELASTICSEARCH_PASSWORD'],
+  log: true
+test:
+  url: ENV['ELASTICSEARCH_URL'] || 'http://localhost:9200'
+production:
+  url: ENV['ELASTICSEARCH_URL'] || 'http://localhost:9200'
